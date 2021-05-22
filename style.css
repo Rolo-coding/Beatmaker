@@ -61,8 +61,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 70%;
-    margin-top: 3rem;
+    width: 80%;
+    margin-top: 2.5rem;
 }
 
 .kick,
@@ -87,6 +87,11 @@ h1 {
   font-size: 1rem;
   cursor: pointer;
   transition: all .5s ease;
+  margin: 0 60px;
+}
+
+.controls button.kick-volume {
+    margin-left: 75px;
 }
 
 .pad {
@@ -106,7 +111,6 @@ h1 {
 
 select {
     appearance: none;
-    margin-right: 50px;   
     padding: 1.2rem;
     font-size: 1rem;
     background: #2c2d33;
@@ -142,7 +146,7 @@ select
 .tempo-slider {
     padding: .6rem;
     -webkit-appearance: none;
-    margin: 1rem 0;
+    margin: .5rem 0;
     width: 100%;
     position: relative;
     background: #57585f;
@@ -167,7 +171,7 @@ select
 
 .tempo p {
     font-size: 1.5rem;
-    margin: 2rem;
+    margin: .5rem;
     text-align: center;
     color: white;
 }
